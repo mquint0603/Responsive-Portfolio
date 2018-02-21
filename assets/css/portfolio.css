@@ -45,3 +45,61 @@ section{
 section h2 {
     margin-left: 20px;
 }
+
+@media screen and (max-width: 640px){
+    section{
+        width: 100%;
+        background-color: white;
+        float: none;
+        margin-bottom: 30px;
+    }
+    
+    .portfolio{
+        width: 95%;
+        background-color: white;
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .image_label {
+        color: white;
+        position: absolute;
+        text-align: center;
+        bottom: 5px;
+        width: 100%;
+        background:#4aaaa7;  /* Transparency */
+        padding: 12px 0 12px 0;
+      }
+      .image_box {
+        background-color: #fafafa;
+        height: 200px;
+        width: 95%;
+        border-color: #eaeaea;
+        display: block;
+        position: relative;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      .image_thumbnail {
+        object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+        object-position: center; /* Center the image within the element */
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+      }
+    
+      section hr {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    section h2 {
+        margin-left: 20px;
+    }
+
+
+
+
+}

@@ -48,3 +48,62 @@ input[type=button], input[type=submit]{
     text-align: center;
     font-size: 13px;
 }
+
+
+@media screen and (max-width: 640px) {
+   main{
+       width: 90%;
+   }
+   
+    section{
+        width: 98%;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    input {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    input[type=text], input[type=submit] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    
+    label {
+        display: block;
+        }
+    
+    form{
+        background-color: white;
+        margin-left: 25px;
+        padding-bottom: 15px;
+    }
+    
+    section hr {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    section h2 {
+        margin-left: 20px;
+    }
+    
+    #message{
+        height: 120px;
+    }
+    
+    input[type=button], input[type=submit]{
+        background-color: #4aaaa7;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        cursor: pointer;
+        width: 90%;
+        text-align: center;
+        font-size: 13px;
+    }
+}    
