@@ -160,6 +160,113 @@ footer{
     clear: both;
 }
 
+@media screen and (max-width: 768px) {
+    main{
+        width:90%;
+        display: block;
+        margin: auto;
+    }
+    .top{
+        width: 90%;
+        margin: auto;
+    }
+    
+    /*Header*/
+    h1.name{
+        display: inline-block;
+        color: white;
+        background-color: #4aaaa5;
+        text-align: center;
+        font-size: 28px;
+        width: 35%;
+        height: 45px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin-top: 0;
+    }
+    header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #cccccc;
+        height: 65px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    
+    nav{
+        width: 50%;
+        height: 55px;
+        background-color: white;
+        display: block;
+        float: right;
+        padding-top: 3px;
+    }
+    nav li {
+        float: right;
+        display: block;
+        margin: 0 10px 0 10px;
+        border-right: 1px solid #cccccc;
+        padding-right: 15px;
+    }
+    
+    nav li:first-of-type{
+        border: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    header div {
+        width: 960px;
+        height: 100%;
+        margin: auto;
+    }
+
+/*About Me section*/
+div.about  {
+    display: block;
+    float: none;
+    width: 100%;
+    clear: both;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about hr {
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+/* .about h1{
+    width: 90%;
+    text-align: left;
+    padding: 20px 0 10px 0;
+    margin: auto;
+ } */
+img.me{
+    width: 200px;
+}
+/*Connect section*/
+div.connect {
+    display: block;
+    float: none;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 70px;
+}   
+footer{
+    margin-top: 20px;
+    padding-top: 15px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    clear: both;
+}
+}
+
 
 @media screen and (max-width: 640px) {
     main{
@@ -213,12 +320,13 @@ nav ul{
     padding-top: 8px;
 }
 nav li {
-    float: none;
+    width: 30%;
     display: inline-block;
-    padding: 5px;
+    padding: 0px;
     border-right: none;
     text-align: center;
-    float: none;
+    margin: auto;
+    padding-top: 5px;
 }
 
 header div {
@@ -265,5 +373,17 @@ div.connect {
     width: 100%;
     background-color: white;
     margin-bottom: 70px;
-}        
+}   
+footer{
+    margin-top: 20px;
+    padding-top: 15px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    clear: both;
 }
+}
+
