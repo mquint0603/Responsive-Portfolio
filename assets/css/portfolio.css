@@ -1,0 +1,47 @@
+section{
+    width: 650px;
+    background-color: white;
+    float: left;
+}
+
+.portfolio{
+    width: 610px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.image_label {
+    color: white;
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+    background:#4aaaa7;  /* Transparency */
+    padding: 12px 0 12px 0;
+  }
+  .image_box {
+    background-color: #fafafa;
+    height: 200px;
+    width: 285px;
+    border-color: #eaeaea;
+    display: inline-block;
+    position: relative;
+    margin: 7px;
+  }
+  .image_thumbnail {
+    object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+    object-position: center; /* Center the image within the element */
+    height: 200px;
+    width: 285px;
+    position: absolute;
+  }
+
+  section hr {
+    width: 610px;
+    margin-bottom: 20px;
+}
+section h2 {
+    margin-left: 20px;
+}
