@@ -46,6 +46,55 @@ section h2 {
     margin-left: 20px;
 }
 
+
+@media screen and (max-width: 768px){
+    section{
+        width: 100%;
+        background-color: white;
+        float: none;
+        margin-bottom: 30px;
+    }
+    
+    .portfolio{
+        width: 90%;
+        background-color: white;
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    
+      .image_box {
+        background-color: #fafafa;
+        height: 200px;
+        width: 48%;
+        border-color: #eaeaea;
+        display: inline-block;
+        position: relative;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      .image_thumbnail {
+        object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+        object-position: center; /* Center the image within the element */
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+      }
+    
+      section hr {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    section h2 {
+        margin-left: 20px;
+    }
+}
+
+
+
 @media screen and (max-width: 640px){
     section{
         width: 100%;
@@ -60,6 +109,7 @@ section h2 {
         float: none;
         margin: auto;
         margin-bottom: 20px;
+        padding-left: 0px;
     }
     
     .image_label {
@@ -98,8 +148,4 @@ section h2 {
     section h2 {
         margin-left: 20px;
     }
-
-
-
-
 }
