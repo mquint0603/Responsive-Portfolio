@@ -45,7 +45,60 @@ section{
 section h2 {
     margin-left: 20px;
 }
+div.connect{
+    margin-bottom: 770px;
+}
 
+
+
+
+@media screen and (max-width: 980px) {
+    main{
+        width:90%;
+        display: block;
+        margin: auto;
+    }
+
+    section{
+        width: 60%;
+        margin-right: 0;
+    }
+    section hr {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .portfolio{
+        width: 90%;
+        background-color: white;
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 0px;
+    }
+    
+      .image_box {
+        background-color: #fafafa;
+        height: 250px;
+        width: 100%;
+        border-color: #eaeaea;
+        /* display: inline-block;
+        position: relative; */
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      .image_thumbnail {
+        object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+        object-position: center; /* Center the image within the element */
+        height: 250px;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+      }
+      div.connect{
+        margin-bottom: 1460px;
+    }
+
+}
 
 @media screen and (max-width: 768px){
     section{
@@ -91,6 +144,10 @@ section h2 {
     section h2 {
         margin-left: 20px;
     }
+    div.connect {
+        margin-bottom: 90px;
+    }
+
 }
 
 
@@ -123,7 +180,7 @@ section h2 {
       }
       .image_box {
         background-color: #fafafa;
-        height: 200px;
+        height: 250px;
         width: 95%;
         border-color: #eaeaea;
         display: block;
@@ -134,7 +191,7 @@ section h2 {
       .image_thumbnail {
         object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
         object-position: center; /* Center the image within the element */
-        height: 200px;
+        height: 250px;
         width: 100%;
         position: absolute;
         margin: auto;

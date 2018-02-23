@@ -48,6 +48,50 @@ input[type=button], input[type=submit]{
     text-align: center;
     font-size: 13px;
 }
+div.connect{
+    margin-bottom: 510px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+section{
+    width: 60%;
+    margin-right: 0;
+}
+section hr {
+    width: 90%;
+    margin-bottom: 20px;
+}
+input {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+input[type=text], input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    }
+
+form{
+    background-color: white;
+    margin-left: 25px;
+    padding-bottom: 15px;
+}
+
+div.connect{
+    margin-bottom: 520px;
+}
+
+} 
+
 
 @media screen and (max-width: 768px) {
     main{
@@ -104,6 +148,9 @@ input[type=button], input[type=submit]{
          width: 90%;
          text-align: center;
          font-size: 13px;
+     }
+     div.connect{
+         margin-bottom: 90px;
      }
  }   
 
