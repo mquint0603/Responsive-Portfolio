@@ -21,6 +21,11 @@ section{
     background:#4aaaa7;  /* Transparency */
     padding: 12px 0 12px 0;
   }
+  .image_label a {
+      color: white;
+      
+  }
+
   .image_box {
     background-color: #fafafa;
     height: 200px;
